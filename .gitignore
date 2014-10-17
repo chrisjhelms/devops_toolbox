@@ -4,3 +4,4 @@
 # packer build and cache directories
 build/
 packer_cache/
+output-virtualbox-iso/
