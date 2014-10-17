@@ -1,0 +1,6 @@
+# Ignore OSX files
+.DS_Store
+
+# packer build and cache directories
+build/
+packer_cache/
