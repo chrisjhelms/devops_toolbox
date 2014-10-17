@@ -67,6 +67,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "java"
     chef.add_recipe "openssl"
     chef.add_recipe "tomcat::default"
+
+    chef.json = {
+      java: {jdk_version: '7'},
+      tomcat: {base_version: ''}
+    }
   end
 
 end
